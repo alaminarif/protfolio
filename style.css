@@ -1,0 +1,83 @@
+/* Google Font Link  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Short+Stack&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  /* font-family: "Cairo", sans-serif; */
+}
+h1 {
+  font-family: "Short Stack", cursive;
+}
+li {
+  list-style: none;
+}
+p {
+  text-align: justify;
+  line-height: 1.8;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+header,
+.skill-section,
+.protfolio,
+.contact {
+  background: fixed;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+}
+header {
+  background-image: url(img/header.png);
+  height: 100vh;
+}
+.banner-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: end !important;
+  align-items: center !important;
+  min-height: 550px !important;
+}
+hr {
+  width: 300px;
+  height: 5px !important;
+  background-color: #fff;
+}
+.about img {
+  max-height: 650px !important;
+}
+
+#card {
+  margin: auto;
+  background-color: transparent;
+  height: 230px;
+  width: 230px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+.skill-section {
+  background-image: url(img/skill.png);
+}
+.protfolio {
+  background-image: url(img/potfolio.png);
+}
+.overlay {
+  background-color: #f68e56;
+  opacity: 0.9;
+}
+.protfolio-img {
+  max-width: 240px;
+  max-height: 192px;
+}
+.contact {
+  background-image: url(img/contact.png);
+}
+.contact-overlay {
+  background-color: #423f3c;
+  opacity: 0.7;
+}
