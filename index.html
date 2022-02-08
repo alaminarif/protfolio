@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- /* Header Section Start */ -->
-    <header class="header-section py-5">
+    <header id="home" class="py-5">
       <div class="container">
         <div class="row">
           <!-- navbar  -->
@@ -35,29 +35,32 @@
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                  <a class="nav-link active ms-5 fs-4 text-light" aria-current="page" href="#">Home</a>
+                  <a class="nav-link active ms-5 fs-4 text-light" aria-current="page" href="#home">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light ms-5 fs-4" href="#">About</a>
+                  <a class="nav-link text-light ms-5 fs-4" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light ms-5 fs-4 text-ligh" href="#">Potfolio</a>
+                  <a href="#services" class="nav-link text-light ms-5 fs-4 text-ligh">Services</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light ms-5 fs-4 text-ligh" href="#">Skills</a>
+                  <a class="nav-link text-light ms-5 fs-4 text-ligh" href="#protfolio">Protfolio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link text-light ms-5 fs-4 text-ligh">Contact</a>
+                  <a class="nav-link text-light ms-5 fs-4 text-ligh" href="#skill">Skills</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#contact" class="nav-link text-light ms-5 fs-4 text-ligh">Contact</a>
                 </li>
               </ul>
             </div>
           </nav>
         </div>
         <!-- Banner  -->
-        <div class="banner-head text-light">
-          <h1 class="display-1">I AM Al Amin Arif</h1>
-          <hr class="text-light" />
-          <ul class="navbar-nav d-flex flex-row">
+        <div id="banner-head" class="text-light">
+          <h1 class="display-1">I AM JHON DOE</h1>
+          <div id="v-line" class="bg-light"></div>
+          <ul class="navbar-nav d-flex flex-row mt-4">
             <li class="nav-item">
               <a class="nav-link active ms-4 fs-4 text-light" aria-current="page" href="#">Fortend </a>
             </li>
@@ -77,7 +80,7 @@
     <!-- /* Header Section End */ -->
     <!-- Main Section Start -->
     <main class="main-section">
-      <section class="py-5">
+      <section id="about" class="py-5">
         <div class="container">
           <div class="row">
             <div class="col-12 col-lg-6 py-5">
@@ -106,7 +109,7 @@
               </div>
             </div>
             <div class="col-12 col-lg-6 py-5">
-              <div class="about">
+              <div id="about">
                 <img class="h-75" src="img/about.png" alt="" />
               </div>
             </div>
@@ -114,10 +117,10 @@
         </div>
       </section>
       <!-- Skill Section  -->
-      <section class="skill-section py-5">
+      <section id="skill" class="py-5">
         <div class="container">
           <div class="row">
-            <h2 class="text-center text-light display-3">My Skills</h2>
+            <h2 class="text-center text-light">My Skills</h2>
             <p class="text-center text-light px-5 py-3 fs-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni praesentium <br />
               ut quia consequuntur. Eum, optio repellendus cupiditate eius,
@@ -151,7 +154,7 @@
         </div>
       </section>
       <!-- Services Section  -->
-      <section class="services py-5">
+      <section id="services" class="py-5">
         <div class="container">
           <div class="row">
             <h2 class="text-center display-3">Services</h2>
@@ -160,12 +163,12 @@
               ut quia consequuntur. Eum, optio repellendus cupiditate eius,
             </p>
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="card p-5">
-                <div class="card-img text-center">
+              <div class="card border-0">
+                <div id="card-img" class="text-center">
                   <img src="img/services-1.png" class="my-5" alt="" style="height: 64px; width: 64px" />
                 </div>
                 <h3 class="text-center my-3">Backend</h3>
-                <p class="">
+                <p class="px-5">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas in recusandae cupiditate. Blanditiis beatae accusantium culpa quasi
                   excepturi rem delectus eum omnis. Aut, rem nostrum!
                 </p>
@@ -173,12 +176,12 @@
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="card p-5">
-                <div class="card-img text-center">
+              <div class="card border-0">
+                <div id="card-img" class="card-img text-center">
                   <img src="img/services-2.png" class="my-5" alt="" style="height: 64px; width: 64px" />
                 </div>
                 <h3 class="text-center my-3">Photography</h3>
-                <p class="">
+                <p class="px-5">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas in recusandae cupiditate. Blanditiis beatae accusantium culpa quasi
                   excepturi rem delectus eum omnis. Aut, rem nostrum!
                 </p>
@@ -186,12 +189,12 @@
               </div>
             </div>
             <div class="col-12 col-md-6 col-lg-4">
-              <div class="card p-5">
-                <div class="card-img text-center">
+              <div class="card border-0">
+                <div id="card-img" class="text-center">
                   <img src="img/services-3.png" class="my-5" alt="" style="height: 64px; width: 64px" />
                 </div>
                 <h3 class="text-center my-3">Fordend</h3>
-                <p class="">
+                <p class="px-5">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas in recusandae cupiditate. Blanditiis beatae accusantium culpa quasi
                   excepturi rem delectus eum omnis. Aut, rem nostrum!
                 </p>
@@ -202,7 +205,7 @@
         </div>
       </section>
       <!-- Protfolio Section  -->
-      <section class="protfolio">
+      <section id="protfolio">
         <div class="overlay py-5">
           <div class="container">
             <div class="row">
@@ -261,7 +264,7 @@
         </div>
       </section>
       <!-- Blog Section  -->
-      <section class="py-5">
+      <section id="blog" class="py-5">
         <div class="container">
           <div class="row">
             <h2 class="text-center display-3 py-5">Blogs</h2>
@@ -298,7 +301,7 @@
         </div>
       </section>
       <!-- Contact Section  -->
-      <section class="contact">
+      <section id="contact">
         <div class="contact-overlay py-5">
           <div class="container">
             <div class="row">
